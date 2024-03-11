@@ -1,0 +1,12 @@
+.navbar {
+    background-color: rgb(36, 154, 166) !important;
+    padding: 0;
+}
+header .navbar a {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
