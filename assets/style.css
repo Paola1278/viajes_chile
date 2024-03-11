@@ -1,18 +1,36 @@
-.navbar {
-    background-color: rgb(36, 154, 166) !important;
-    padding: 0;
+.container {
+    position: relative;
 }
-header .navbar a {
-    color: white;
+
+.navbar {
+    position: fixed;
+    background-color: rgb(36, 154, 166) !important;
+    padding: 10px;
+    width: 100%; 
+    z-index: 1000; 
+}
+
+header .nav {
+    color:white;
     font-family: "Cabin", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    font-variation-settings: "wdth" 100;
-}
-.carousel-item img {
-    object-fit: cover; /* Ajusta según tus preferencias: 'cover' o 'contain' */
-    width: 100%;
-    height: 100%;
+    font-variation-settings: "width" 100;
 }
 
+.carousel-item img {
+    object-fit: calc;
+    width: 60%;
+    height: 60%;
+}
+
+#inicio,
+#quienes-somos,
+#destacado,
+#contacto {
+    min-height: 20rem;
+}
+
+#section {
+    margin-top: 7rem;
