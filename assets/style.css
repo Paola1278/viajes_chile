@@ -1,7 +1,10 @@
 .container {
     position: relative;
+    
 }
-
+.container-fluid {
+    background-color: black;
+}
 .navbar {
     position: fixed;
     background-color: rgb(36, 154, 166) !important;
@@ -36,5 +39,5 @@ header .nav {
     margin-top: 7rem;
 }
 .form {
-    color: white;
+    background-color: black !important;
 }
