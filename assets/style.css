@@ -5,14 +5,20 @@
 .container-fluid {
     background-color: black;
 }
+.card text{
+    background-color: black !important;
+}
 .navbar {
     position: fixed;
     background-color: rgb(36, 154, 166) !important;
+    color: white;
     padding: 10px;
     width: 100%; 
     z-index: 1000; 
 }
-
+.navbar a {
+    color:white;
+}
 header .nav {
     color:white;
     font-family: "Cabin", sans-serif;
@@ -40,4 +46,26 @@ header .nav {
 }
 .form {
     background-color: black !important;
+    
+    
+}
+.card {
+    background-color:black;
+}
+.card-body {
+    background-color: #16a2b7;
+}
+
+social-icon {
+    color: white;
+}
+.page-footer {
+    background-color: #16a2b7;
+}
+.sec01 {
+    background-color: rgb(36, 154, 166);
+    text-align: center;
+}
+#contacto {
+    color:white;
 }
